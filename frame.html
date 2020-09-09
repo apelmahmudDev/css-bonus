@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Photo Frame</title>
+
+		<style>
+			.photo__album {
+				display: flex;
+				flex-wrap: wrap;
+                justify-content: space-evenly;
+			}
+
+			.photo__frame {
+				position: relative;
+				height: 200px;
+				width: 300px;
+				border: 10px solid orange;
+				border-radius: 10px;
+                margin-bottom: 40px;
+                overflow: hidden;
+			}
+			.photo__frame .photo img {
+				width: 100%;
+			}
+
+			.photo__frame:hover .photo img {
+				transform: scale(1.3);
+                transition: transform 1s;
+			}
+
+			.photo__details {
+				position: absolute;
+				height: 200px;
+				width: 300px;
+				top: 0;
+				display: none;
+			}
+
+			.photo__frame:hover .photo__details {
+				display: block;
+				padding: 5px;
+				background: rgba(0, 0, 0, 0.3);
+			}
+
+			.photo__frame:hover .photo__details h3 {
+				background: #000;
+				color: white;
+				text-align: center;
+			}
+
+			.photo__frame:hover .photo__details p {
+				color: white;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<h2>Photo Album</h2>
+		<section class="photo__album">
+			<div class="photo__frame">
+				<div class="photo">
+					<img src="images/rose.jpg" alt="" />
+				</div>
+				<div class="photo__details">
+					<h3>The Rose</h3>
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque
+						veritatis nemo sint? Nisi, esse. Sequi harum cumque, culpa natus,
+						modi ipsa, quae deserunt debitis doloremque tempora autem architecto
+						pariatur laudantium?
+					</p>
+				</div>
+			</div>
+			<div class="photo__frame">
+				<div class="photo">
+					<img src="images/rose.jpg" alt="" />
+				</div>
+				<div class="photo__details">
+					<h3>The Rose</h3>
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque
+						veritatis nemo sint? Nisi, esse. Sequi harum cumque, culpa natus,
+						modi ipsa, quae deserunt debitis doloremque tempora autem architecto
+						pariatur laudantium?
+					</p>
+				</div>
+			</div>
+			<div class="photo__frame">
+				<div class="photo">
+					<img src="images/rose.jpg" alt="" />
+				</div>
+				<div class="photo__details">
+					<h3>The Rose</h3>
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque
+						veritatis nemo sint? Nisi, esse. Sequi harum cumque, culpa natus,
+						modi ipsa, quae deserunt debitis doloremque tempora autem architecto
+						pariatur laudantium?
+					</p>
+				</div>
+			</div>
+
+			<div class="photo__frame">
+				<div class="photo">
+					<img src="images/rose.jpg" alt="" />
+				</div>
+				<div class="photo__details">
+					<h3>The Rose</h3>
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque
+						veritatis nemo sint? Nisi, esse. Sequi harum cumque, culpa natus,
+						modi ipsa, quae deserunt debitis doloremque tempora autem architecto
+						pariatur laudantium?
+					</p>
+				</div>
+			</div>
+
+			<div class="photo__frame">
+				<div class="photo">
+					<img src="images/rose.jpg" alt="" />
+				</div>
+				<div class="photo__details">
+					<h3>The Rose</h3>
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque
+						veritatis nemo sint? Nisi, esse. Sequi harum cumque, culpa natus,
+						modi ipsa, quae deserunt debitis doloremque tempora autem architecto
+						pariatur laudantium?
+					</p>
+				</div>
+			</div>
+			<div class="photo__frame">
+				<div class="photo">
+					<img src="images/rose.jpg" alt="" />
+				</div>
+				<div class="photo__details">
+					<h3>The Rose</h3>
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque
+						veritatis nemo sint? Nisi, esse. Sequi harum cumque, culpa natus,
+						modi ipsa, quae deserunt debitis doloremque tempora autem architecto
+						pariatur laudantium?
+					</p>
+				</div>
+			</div>
+			<div class="photo__frame">
+				<div class="photo">
+					<img src="images/rose.jpg" alt="" />
+				</div>
+				<div class="photo__details">
+					<h3>The Rose</h3>
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque
+						veritatis nemo sint? Nisi, esse. Sequi harum cumque, culpa natus,
+						modi ipsa, quae deserunt debitis doloremque tempora autem architecto
+						pariatur laudantium?
+					</p>
+				</div>
+			</div>
+			<div class="photo__frame">
+				<div class="photo">
+					<img src="images/rose.jpg" alt="" />
+				</div>
+				<div class="photo__details">
+					<h3>The Rose</h3>
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque
+						veritatis nemo sint? Nisi, esse. Sequi harum cumque, culpa natus,
+						modi ipsa, quae deserunt debitis doloremque tempora autem architecto
+						pariatur laudantium?
+					</p>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>

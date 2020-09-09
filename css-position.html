@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css position</title>
+
+    <style>
+        .container {
+            display: flex;
+            position: relative;
+        }
+        .box {
+            height: 100px;
+            width: 100px;
+            background: orange;
+            padding: 5px;
+            margin-right: 40px;
+            border: 2px solid black;
+        }
+        .box-2 {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Css position</h1>
+
+    <div class="container">
+        <div class="box box-1">
+            <h2>box-1</h2>
+        </div>
+        <div class="box box-2">
+            <h2>box-2</h2>
+        </div>
+        <div class="box box-3">
+            <h2>box-3</h2>
+        </div>
+        <div class="box box-4">
+            <h2>box-4</h2>
+        </div>
+    </div>
+</body>
+</html>
